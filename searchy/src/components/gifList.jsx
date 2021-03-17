@@ -8,7 +8,7 @@ class GifList extends Component {
     const { gifIds, changeSelectGif } = this.props;
     return (
       <div className="gif-list">
-        { gifIds.map((gifId) => <Gif gifId={gifId} key={gifId} changeSelectGif={changeSelectGif} />)}
+        {gifIds.map((gifId) => <Gif gifId={gifId} key={gifId} changeSelectGif={changeSelectGif} />)}
       </div>
     );
   }
